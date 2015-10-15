@@ -18,7 +18,6 @@ public class World {
 		while (!isTarget()) {
 			robot = robot.move(ai.nextMove(robot, this));
 		}
-		System.out.println(robot.position.x + "  " + robot.position.y);
 		System.out.println(this.time);
 	}
 	
